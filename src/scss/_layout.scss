@@ -1,26 +1,9 @@
-.watch-father{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-.watch{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-h1{
-    color: red;
-    font-size: 4rem;
-    font-weight: bolder;
-}
-.watch{
-    height: 4vh;
-    width: 12vw;
+#MyClockDisplay{
     background-color: black;
-    color: rgb(12, 146, 236);
-    font-size: 2rem;
+    width: 22vw;
+    height: 12vh;
+    font-size: 3rem;
+    color: skyblue;
+    text-align: center;
+    padding-top: 2vh;
 }
