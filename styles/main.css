@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+h1 {
+  color: red;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.watch {
+  height: 4vh;
+  width: 12vw;
+  background-color: black;
+  color: #0c92ec;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
