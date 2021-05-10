@@ -7,25 +7,46 @@
     <title>digitalwatch</title>
   </head>
   <body>
-      <div class="watch-father">
-          <h1>The Time is</h1>
-          <div class="watch">
-              
-              <div ><span>00:</span></div>
-              
-              
-              <div><span>00:</span></div>
-              
-              
-              <div><span>00:</span></div>
-              
-              <div><span>AM</span></div>
-              </div>
-              </div>
-
-        
+    <div id="MyClockDisplay" class="clock">01:12:54PM</div>
     <script>
-let hours = document.querySelector("")
+
+
+function counthour (){
+    let hour = new Date().getHours();
+    let minute = new Date().getMinutes();
+    let second = new Date().getSeconds();
+    let am = "AM";
+    let time = hour + ":" + minute + ":" + second + ":" + am;
+
+    if ( hour == 0){
+        hour = "12";
+    }
+    if (hour > 12){
+        hour = hour -12;
+        am = "PM";
+    }
+    if (hour > 10){
+        hour = "0" + hour;
+    }
+    if (minute > 10){
+        minute = "0" + minute;
+    }
+    if (second > 10){
+        second = "0" + second;
+    }
+ document.querySelector("#MyClockDisplay").innerHTML = time;
+ setTimeout(counthour, 1000);
+
+
+
+
+}
+counthour();
+
+
+
+
+
 
 
 
