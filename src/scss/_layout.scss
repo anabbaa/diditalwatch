@@ -1,0 +1,26 @@
+.watch-father{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h1{
+    color: red;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.watch{
+    height: 4vh;
+    width: 12vw;
+    background-color: black;
+    color: rgb(12, 146, 236);
+    font-size: 2rem;
+}
