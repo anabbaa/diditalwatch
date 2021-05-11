@@ -15,9 +15,9 @@ body {
 
 #MyClockDisplay {
   background-color: black;
-  width: 22vw;
-  height: 12vh;
-  font-size: 3rem;
+  width: 100%;
+  height: 16vh;
+  font-size: 8rem;
   color: skyblue;
   text-align: center;
   padding-top: 2vh;
